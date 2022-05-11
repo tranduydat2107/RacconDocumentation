@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    margin-left: 20px;
+}
+.navbar-dark{
+    background-color: rgb(17,16,12,255);
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(17,16,12,255);
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.listItem{
+   text-decoration: none;
+   color: black;
+   font-weight: 350;
+}
+
+main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navList{
+    text-align: left;
+    
+}
+
+.mainContent{
+    text-align: left;
+}
+
+.listContent{
+    list-style: decimal;
+}
+
+.requestBlockList{
+    list-style: lower-alpha;
+}
+
+.listFunctions{
+    list-style: circle;
+}
+
+.listContent li {
+    margin-top: 20px;
+}
+
+.title{
+    font-weight: 350;
+    margin-bottom: 30px;
+}
+
+
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+        <!-- Bootstrap CSS -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet"/>
+        <!-- css -->
+        <link href="../css/templateGuide.css" rel="stylesheet"/>
+        <!-- icon -->
+        <link href="../images/favicon-16x16.png" rel="icon" type="images/x-icon"/>
+        <title>Raccoon - Template Guide</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-dark static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img alt="..." height="50" src="../images/favicon.ico"/>
+                    </a>
+                    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link active" href="index.html">Getting Started</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="templateGuide.html">Template Guide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About Us</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+    <main style="margin-top: 30px;">
+
+        <div class="container">
+            <div class="row">
+              <div class="col-4 navList">
+                <ol class="listContent">
+                    <li><a href="#" class="listItem">Info block</a></li>
+                    <li><a href="#" class="listItem">Request block</a></li>
+                    <ol class="requestBlockList">
+                        <li><a href="#" class="listItem"> Info block</a> </li>
+                        <li><a href="#" class="listItem"> Raw request</a> </li>
+                        <li><a href="#" class="listItem"> Fuzzing module</a> </li>
+                        <li><a href="#" class="listItem"> Operator</a> </li>
+                        <ul class="listFunctions">
+                            <li><a href="#" class="listItem">Matcher</a> </li>
+                            <li><a href="#" class="listItem">Exposer</a> </li>
+                            <li><a href="#" class="listItem">Helper Fucntions</a> </li>
+                        </ul>
+                    </ol>
+                  </ol>
+              </div>
+              <div class="col-8 mainContent">
+
+                <div id="introduction">
+                    <h1 class="title">Introduction</h1>
+                    <div>
+                        Racoon is based on the perception of using YAML template file as the input for sent, receive and process data from request. 
+                        One of the main strength of our tool is customizable template. A knowledge user can create their own template suitable with their need. 
+                        Those template are written by YAML because this language has a simple and clean syntax and very human-readable.
+                    </div>
+                </div>
+                <hr>
+
+                <div id="requestBlock">
+                    <h1 class="title">Template Components</h1>
+                    <div id="infoBlock">
+                        <h2 class="title">a. Info block</h2>
+                        <div>
+                            Info block provides some basic data fields like: id, name, author, severity, description, remediation, tags,... 
+                            Info block is dynamic fields, user can add their own fields to provide more information about current template. 
+                            Each template has a unique ID for identifier. ID must not contain spaces and another special character.
+                        </div>
+                        <p>Example:</p>
+                        <div class="example">
+                            
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+    </main>
+        <footer class="text-center text-lg-start">
+                 <div class="text-center p-3" style="background-color: rgb(17,16,12,255); color: white;">
+                      2022 - Raccoon - Custom Vulnerability Scanner <br/>
+                      Racoon v1.1.0 <br/>
+                      Coded by Hung Tran, Dat Tran, Danh Dao, Hoa Le
+                </div>
+        </footer>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script crossorigin="anonymous" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
