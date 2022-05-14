@@ -3,6 +3,11 @@ body{
     padding: 0;
 }
 
+#side-bar {
+    height: 100%;
+    position: fixed;
+}
+
 .nav-link{
     margin-left: 20px;
 }
@@ -59,6 +64,14 @@ main{
     margin-bottom: 30px;
 }
 
+.title1{
+    font-size: 25px;
+}
+
+pre {
+    background-color: aliceblue;
+    padding-left: 15px;
+}
 
 
 
